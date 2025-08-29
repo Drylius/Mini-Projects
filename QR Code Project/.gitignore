@@ -1,0 +1,30 @@
+# Dependency directories
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts
+# These are generated files, not source code
+/dist/
+/build/
+/out/
+.next/ # For Next.js projects
+.parcel-cache/ # For Parcel bundler
+
+# Editor and OS files
+# Ignore IDE-specific files
+.vscode/
+.idea/
+.DS_Store # Mac operating system files
+Thumbs.db # Windows operating system files
